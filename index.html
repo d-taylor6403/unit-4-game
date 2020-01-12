@@ -10,40 +10,51 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Courgette|Give+You+Glory&display=swap" rel="stylesheet">
     <!-- Custom CSS style sheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
     <!--Main Bootstrap Grid-->
     <div class="container">
-        <div class="row-1">
+        <div class="row">
             <h1>Crystals Collector!</h1>
         </div>
 
-        <div class="row-2">
+        <br>
+
+        <div class="row">
             <div id="gameRules">
             <p> You will be given a random number at the start of the game.
-                <br>
+                
+            <p>
                 There are four crystaks below. By clicking on a crystal you will add a 
                 specific amount of points to your total score.
-                <br>
+            </p>
+
+            <p>
                 You win the game by matching your total score to a random number generated at
                 the start of the game. You lose the fame if your toal score goes above the random
                 number.
-                <br>
+            </p>
+
+            <p>
                 The value of each crystal is hidden from you until you click on it.
-                <br>
+            </p>
+
+            <p>
                 Each time when the game starts, the game will change the values of each crystal.
             </p>
             </div>
         </div>
 
-        <div class="row-3">
+        <br>
+
+        <div class="row">
             <div class="col-lg-3">
                 <div id="generatedNumber"></div>
             </div>
 
-            <div class="col-lg-1">
+            <div class="col-lg-2">
                 <div id="win-loss-tracker">
 
                     <div>
@@ -74,11 +85,11 @@
             </div>
         </div>
 
-        <div class="row-5">
+        <div class="row">
             <h5>Your Total Score is: </h5>
         </div>
         
-        <div class="row-6">
+        <div class="row">
             <div id="userScore"></div>
         </div>
     </div>

@@ -1,0 +1,45 @@
+/*Main Body Styling*/
+
+body{
+    background-image:url(../images/oriental.png);
+}
+
+h1{
+    background-color: teal;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 6px;
+    font-family:'Courgette', cursive;
+    color:white;
+}
+
+#gameRules{
+    background-color: white;
+    max-width: 610px;
+    margin-top: -15px;
+    padding: 20px 5px 75px 10px;
+    font-family:'Courgette', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: teal;
+}
+
+.col-lg-3{
+    background-color: teal;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+#win-loss-tracker{
+    background-color: rgb(43, 172, 172);
+    height: 150px;
+    width: 95px;
+    font-family:'Courgette', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 35px 0px 0px 10px;
+    color: white; 
+}
+
+
