@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Give+You+Glory&display=swap" rel="stylesheet">
+    <!-- Custom CSS style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Main Bootstrap Grid-->
+    <div class="container">
+        <div class="row-1">
+            <h1>Crystals Collector!</h1>
+        </div>
+
+        <div class="row-2">
+            <div id="gameRules">
+            <p> You will be given a random number at the start of the game.
+                <br>
+                There are four crystaks below. By clicking on a crystal you will add a 
+                specific amount of points to your total score.
+                <br>
+                You win the game by matching your total score to a random number generated at
+                the start of the game. You lose the fame if your toal score goes above the random
+                number.
+                <br>
+                The value of each crystal is hidden from you until you click on it.
+                <br>
+                Each time when the game starts, the game will change the values of each crystal.
+            </p>
+            </div>
+        </div>
+
+        <div class="row-3">
+            <div class="col-lg-3">
+                <div id="generatedNumber"></div>
+            </div>
+
+            <div class="col-lg-1">
+                <div id="win-loss-tracker">
+
+                    <div>
+                        <h5>Wins: </h5>
+                        <span id="wins"></span>
+                    </div>
+
+                    <div>
+                        <h5>Losses: </h5>
+                        <span id="losses"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-1">
+                <img src="assets\images\crystal1.PNG" alt="Crystal_1">
+            </div>
+            <div class="col-lg-1">
+                <img src="assets\images\crystal2.PNG" alt="Crystal_2">
+            </div>
+            <div class="col-lg-1">
+                <img src="assets\images\crystal3.PNG" alt="Crystal_3">
+            </div>
+            <div class="col-lg-1">
+                <img src="assets\images\crystal4.PNG" alt="Crystal_4">
+            </div>
+        </div>
+
+        <div class="row-5">
+            <h5>Your Total Score is: </h5>
+        </div>
+        
+        <div class="row-6">
+            <div id="userScore"></div>
+        </div>
+    </div>
+
+     <!-- jQuery -->
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+     <!-- Script -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
