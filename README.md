@@ -1,6 +1,6 @@
 
 # Crystal Collector Game
----------------------------
+
 
 This is the fourth assignment for the Vanderbilt Coding Bootcamp.
 
@@ -20,14 +20,15 @@ The value of each crystal is hidden from you until you click on it.
 
 Each time when the game starts, the value of the crystals will change.
 
-**The game can be played here: https://d-taylor6403.github.io/unit-4-game/**
----------------------------
+#####The game can be played here: https://d-taylor6403.github.io/unit-4-game/**
+
+--------------------------- 
 
 ## Built With
-*HTML5
-*CSS3
-*[Bootstrap-Framework](http://getbootstrap.com/)
-*Javascript
-*[jQuery-Javascript Library](https://api.jquery.com/)
+* HTML5
+* CSS3
+* [Bootstrap-Framework](http://getbootstrap.com/)
+* Javascript
+* [jQuery-Javascript Library](https://api.jquery.com/)
 
 
