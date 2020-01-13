@@ -30,16 +30,19 @@ h1{
     height: 150px;
     margin-bottom: 15px;
     margin-top: -15px;
+    font-family:'Courgette', cursive;
+    color: white;
+    font-size: 50px;
 }
 
 #win-loss-tracker{
     background-color: rgb(43, 172, 172);
     height: 150px;
-    width: 95px;
+    width: 90px;
     font-family:'Courgette', cursive;
     font-weight: bold;
     font-size: 20px;
-    padding: 35px 0px 0px 10px;
+    padding: 17px 0px 0px 10px;
     color: white; 
     margin-top: -15px;
 }
@@ -63,7 +66,10 @@ h1{
     width: 280px;
     height: 150px;
     margin-bottom: 15px;
-    
+    font-family:'Courgette', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
 }
 
 
