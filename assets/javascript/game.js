@@ -28,12 +28,12 @@ getNumber();
 for (var i = 0; i<4; i++){
     crystalNumber.push(Math.floor(Math.random() * 12)+1);
     }
-    
     console.log(crystalNumber);
 
 
 //Reset Game
 function reset (){
+    var crystalNumber = [];
     getNumber ();
     for (var i = 0; i<4; i++){
         crystalNumber.push(Math.floor(Math.random() * 12)+1);
@@ -61,6 +61,42 @@ function userLose (){
 //Generate click events for each crystal button
 $('#crystal1').on('click', function (){
     userScore = userScore + crystalNumber[0];
+    console.log("New Userscore= " + userScore);
+    $('#userScore').text(userScore);
+        //Evaluates win/lose condition
+        if(userScore === generatedNumber){
+            userWin();
+        }else if (userScore > generatedNumber){
+            userLose();
+        }
+})
+
+$('#crystal2').on('click', function (){
+    userScore = userScore + crystalNumber[1];
+    console.log("New Userscore= " + userScore);
+    $('#userScore').text(userScore);
+        //Evaluates win/lose condition
+        if(userScore === generatedNumber){
+            userWin();
+        }else if (userScore > generatedNumber){
+            userLose();
+        }
+})
+
+$('#crystal3').on('click', function (){
+    userScore = userScore + crystalNumber[2];
+    console.log("New Userscore= " + userScore);
+    $('#userScore').text(userScore);
+        //Evaluates win/lose condition
+        if(userScore === generatedNumber){
+            userWin();
+        }else if (userScore > generatedNumber){
+            userLose();
+        }
+})
+
+$('#crystal4').on('click', function (){
+    userScore = userScore + crystalNumber[3];
     console.log("New Userscore= " + userScore);
     $('#userScore').text(userScore);
         //Evaluates win/lose condition
