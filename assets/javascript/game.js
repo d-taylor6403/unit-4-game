@@ -33,7 +33,7 @@ for (var i = 0; i<4; i++){
 
 //Reset Game
 function reset (){
-    var crystalNumber = [];
+    crystalNumber = [];
     getNumber ();
     for (var i = 0; i<4; i++){
         crystalNumber.push(Math.floor(Math.random() * 12)+1);
