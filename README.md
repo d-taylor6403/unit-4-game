@@ -8,7 +8,7 @@ The goal of this assignment was to demonstrate the knowledge necessary to create
 
 ---------------------------
 
-**Game Instructions: **
+#### Game Instructions: 
 
 You will be given a random number at the start of the game.
 
@@ -20,9 +20,9 @@ The value of each crystal is hidden from you until you click on it.
 
 Each time when the game starts, the value of the crystals will change.
 
-#####The game can be played here: https://d-taylor6403.github.io/unit-4-game/**
+#### The game can be played here: https://d-taylor6403.github.io/unit-4-game/**
+________________________________________________________________________________
 
---------------------------- 
 
 ## Built With
 * HTML5
