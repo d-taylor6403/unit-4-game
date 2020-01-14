@@ -25,11 +25,12 @@ function getNumber() {
 getNumber();
 
 //Generate random number 1-12 and push into array
-for (var i = 0; i<4; i++){
-    crystalNumber.push(Math.floor(Math.random() * 12)+1);
-    }
-    console.log(crystalNumber);
-
+var crystalNumber = [];
+while(crystalNumber.length < 4){
+    var r = Math.floor(Math.random() * 12) + 1;
+    if(crystalNumber.indexOf(r) === -1) crystalNumber.push(r);
+}
+console.log(crystalNumber);
 
 //Reset Game
 function reset (){
